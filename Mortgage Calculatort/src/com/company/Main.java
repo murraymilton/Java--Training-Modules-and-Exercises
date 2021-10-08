@@ -16,7 +16,7 @@ public class Main {
         System.out.print("Enter the principal amount to be financed:");
         int principal = scanner.nextInt();
 
-        System.out.print("Enter the annual interest rate:");
+        System.out.print("Annual Interest rate:");
         float annualInterest = scanner.nextFloat();
         float monthlyInterest = annualInterest / PERCENT/MONTHS_IN_YEARS;
 
