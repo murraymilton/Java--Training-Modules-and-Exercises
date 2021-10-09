@@ -29,6 +29,6 @@ public class Main {
                 / (Math.pow(1+ monthlyInterest,numberOfPayments) -1);
 
         String mortgageFormatted = NumberFormat.getCurrencyInstance().format(mortgage);
-        System.out.println("Your Mortgage is: " + mortgageFormatted);
+        System.out.println("The mortgage cost total: " + mortgageFormatted);
     }
 }
