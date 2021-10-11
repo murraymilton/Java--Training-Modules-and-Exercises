@@ -13,7 +13,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter the principal amount to be financed:");
+        System.out.print("Enter the principal to be financed financed:");
         int principal = scanner.nextInt();
 
         System.out.print("Annual Interest rate:");
