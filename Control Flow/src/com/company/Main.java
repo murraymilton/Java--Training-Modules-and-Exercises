@@ -17,27 +17,28 @@ public class Main {
 //        System.out.println(isWarm);
 
         // Using the or || operator, if one condition is true then isEligible will be be set to True
-        boolean hasHighIncome = true;
-        boolean hasGoodCredit = true;
-        boolean hasCriminalRecord = false;
-        boolean isEligible = (hasHighIncome || hasGoodCredit) && !hasCriminalRecord;
-        System.out.println(isEligible);
+//        boolean hasHighIncome = true;
+//        boolean hasGoodCredit = true;
+//        boolean hasCriminalRecord = false;
+//        boolean isEligible = (hasHighIncome || hasGoodCredit) && !hasCriminalRecord;
+//        System.out.println(isEligible);
+//
+//        // If Statements
+//    int temperature = 25;
+//    if (temperature > 30) {
+//        System.out.println("It's warm out");
+//        System.out.println("Stay hydrated");
+//    }
+//    else if(temperature > 20 && temperature <=30){
+//        System.out.println("It's nice outside today.");
+//        System.out.println("Go for a walk and enjoy the Sunset.");
+//    }
+//    else
+//        System.out.println("It's cold outside. You might need a jacket, unless your iceman");
 
-        // If Statements
-    int temperature = 25;
-    if (temperature > 30) {
-        System.out.println("It's warm out");
-        System.out.println("Stay hydrated");
-    }
-    else if(temperature > 20 && temperature <=30){
-        System.out.println("It's nice outside today.");
-        System.out.println("Go for a walk and enjoy the Sunset.");
-    }
-    else
-        System.out.println("It's cold outside. You might need a jacket, unless your iceman");
-
-
-
+        //Ternary Operator
+        int income = 120_000;
+        String className = income > 100_000 ? "First" : "Economy";
 
     }
 }
