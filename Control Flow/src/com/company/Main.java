@@ -56,19 +56,49 @@ public class Main {
 //            default:
 //                System.out.println("Your guest account has been enabled with minimal access.");
 //        }
-        System.out.print("Enter a number:");
-        Scanner userInput =  new Scanner(System.in);
-        int number = userInput.nextInt();
-        if(number % 3 == 0 && number % 5 == 0){
-            System.out.println("FizzBuzz");
-        } else if(number % 3 == 0){
-            System.out.println("Buzz");
-        }else if(number % 5 == 0){
-            System.out.println("Fizz");
-        }else
-            System.out.println(number);
+//        System.out.print("Enter a number:");
+//        Scanner userInput =  new Scanner(System.in);
+//        int number = userInput.nextInt();
+//        if(number % 3 == 0 && number % 5 == 0){
+//            System.out.println("FizzBuzz");
+//        } else if(number % 3 == 0){
+//            System.out.println("Buzz");
+//        }else if(number % 5 == 0){
+//            System.out.println("Fizz");
+//        }else
+//            System.out.println(number);
 
+        // For Loops
+//            for(int i = 0; i < 5; i++)
+//                System.out.println("Hello Murray");
+        // While Loops
+//        Scanner scanner = new Scanner(System.in);
+//        String userInput = "";
+//        while (!userInput.equals( "quit")){
+//            System.out.print("Enter a word");
+//            userInput = scanner.next().toLowerCase();
+//            System.out.println("Word entered:" + userInput);
+//        }
 
+//        Do While Loop
+//        Scanner scanner = new Scanner(System.in);
+//        String userInput = "";
+//        do{
+//            System.out.print("Enter a word:");
+//            userInput = scanner.next().toLowerCase();
+//            if (userInput.equals("quit"))
+//                break;
+//            System.out.println("Word entered:" + "" + userInput);
+//
+//        }while(!userInput.equals("quit"));
+        // For Loop Vs For Each Loop
+        String[] tech_companies = {"Google", "Oracle", "Microsoft", "Apple", "Cisco", };
 
+        for (int i = 0; i < tech_companies.length; i++)
+        System.out.println(tech_companies[i]);
+
+        for (String i : tech_companies){
+            System.out.println(i);
+        }
     }
 }
